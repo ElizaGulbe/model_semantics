@@ -1,0 +1,12 @@
+{
+  "activation": "sigmoid",
+  "batch_size": 256,
+  "dropout_rate": 0.0,
+  "hidden_sizes": [
+    256
+  ],
+  "lr": 1e-05,
+  "num_epochs": 20,
+  "optimizer": "SGD",
+  "postive_percentage": 0.6
+}
