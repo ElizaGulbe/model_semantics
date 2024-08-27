@@ -1,0 +1,2069 @@
+accuracy,precision,recall,f1_score,confusion_matrix,classification_report,config
+0.7970200714197759,0.791208668487717,0.7970200714197759,0.7816036060814956,"[[828, 52, 1755, 430], [33, 1310, 1296, 476], [246, 210, 18343, 1467], [106, 169, 2002, 11882]]","              precision    recall  f1-score   support
+
+    hypernym       0.68      0.27      0.39      3065
+     hyponym       0.75      0.42      0.54      3115
+        none       0.78      0.91      0.84     20266
+    synonymy       0.83      0.84      0.84     14159
+
+    accuracy                           0.80     40605
+   macro avg       0.76      0.61      0.65     40605
+weighted avg       0.79      0.80      0.78     40605
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[512]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.3386425599081647,0.11467878338115493,0.3386425599081647,0.17133592912064932,"[[0, 0, 0, 3129], [0, 0, 0, 3126], [0, 0, 0, 21399], [0, 0, 0, 14160]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.00      0.00      0.00     21399
+    synonymy       0.34      1.00      0.51     14160
+
+    accuracy                           0.34     41814
+   macro avg       0.08      0.25      0.13     41814
+weighted avg       0.11      0.34      0.17     41814
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.7106513976111316,0.6955174894864241,0.7106513976111316,0.6785335427811452,"[[119, 94, 2112, 740], [6, 923, 1623, 563], [75, 367, 17778, 2046], [12, 373, 3738, 10036]]","              precision    recall  f1-score   support
+
+    hypernym       0.56      0.04      0.07      3065
+     hyponym       0.53      0.30      0.38      3115
+        none       0.70      0.88      0.78     20266
+    synonymy       0.75      0.71      0.73     14159
+
+    accuracy                           0.71     40605
+   macro avg       0.64      0.48      0.49     40605
+weighted avg       0.70      0.71      0.68     40605
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.9073755201607118,0.9070883224398208,0.9073755201607118,0.9069278758092795,"[[2505, 14, 565, 45], [25, 2528, 500, 73], [413, 219, 19713, 1054], [25, 18, 922, 13195]]","              precision    recall  f1-score   support
+
+    hypernym       0.84      0.80      0.82      3129
+     hyponym       0.91      0.81      0.86      3126
+        none       0.91      0.92      0.91     21399
+    synonymy       0.92      0.93      0.93     14160
+
+    accuracy                           0.91     41814
+   macro avg       0.90      0.87      0.88     41814
+weighted avg       0.91      0.91      0.91     41814
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[128]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5108730451914789,0.5796214869329946,0.5108730451914789,0.3590239013361981,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20233, 33], [0, 0, 13648, 511]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.51      1.00      0.67     20266
+    synonymy       0.94      0.04      0.07     14159
+
+    accuracy                           0.51     40605
+   macro avg       0.36      0.26      0.19     40605
+weighted avg       0.58      0.51      0.36     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.07483139618309657,0.00559973785471156,0.07483139618309657,0.010419751180691505,"[[3129, 0, 0, 0], [3126, 0, 0, 0], [21399, 0, 0, 0], [14160, 0, 0, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.07      1.00      0.14      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.00      0.00      0.00     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.07     41814
+   macro avg       0.02      0.25      0.03     41814
+weighted avg       0.01      0.07      0.01     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5273114267948534,0.5086660160397521,0.5273114267948534,0.391196163886046,"[[0, 0, 3092, 37], [0, 0, 3097, 29], [0, 0, 21077, 322], [0, 0, 13188, 972]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.52      0.98      0.68     21399
+    synonymy       0.71      0.07      0.13     14160
+
+    accuracy                           0.53     41814
+   macro avg       0.31      0.26      0.20     41814
+weighted avg       0.51      0.53      0.39     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[128, 64]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[128]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.7721815659826852,0.7624560518107301,0.7721815659826852,0.7453335421966569,"[[250, 26, 2441, 412], [11, 1294, 1368, 453], [126, 339, 19566, 1368], [27, 218, 2737, 11178]]","              precision    recall  f1-score   support
+
+    hypernym       0.60      0.08      0.14      3129
+     hyponym       0.69      0.41      0.52      3126
+        none       0.75      0.91      0.82     21399
+    synonymy       0.83      0.79      0.81     14160
+
+    accuracy                           0.77     41814
+   macro avg       0.72      0.55      0.57     41814
+weighted avg       0.76      0.77      0.75     41814
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8595446501171856,0.8572215388665796,0.8595446501171856,0.855277502635688,"[[1664, 29, 1123, 313], [16, 2045, 725, 340], [367, 237, 19417, 1378], [78, 113, 1154, 12815]]","              precision    recall  f1-score   support
+
+    hypernym       0.78      0.53      0.63      3129
+     hyponym       0.84      0.65      0.74      3126
+        none       0.87      0.91      0.89     21399
+    synonymy       0.86      0.91      0.88     14160
+
+    accuracy                           0.86     41814
+   macro avg       0.84      0.75      0.79     41814
+weighted avg       0.86      0.86      0.86     41814
+","{'lr': 1e-05, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.7243746113741809,0.7199870939359472,0.7243746113741809,0.6752926160246085,"[[100, 14, 2306, 709], [9, 205, 2003, 909], [28, 32, 19324, 2015], [10, 48, 3442, 10660]]","              precision    recall  f1-score   support
+
+    hypernym       0.68      0.03      0.06      3129
+     hyponym       0.69      0.07      0.12      3126
+        none       0.71      0.90      0.80     21399
+    synonymy       0.75      0.75      0.75     14160
+
+    accuracy                           0.72     41814
+   macro avg       0.71      0.44      0.43     41814
+weighted avg       0.72      0.72      0.68     41814
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[256]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8838905629693404,0.8829281457652814,0.8838905629693404,0.8823839211201343,"[[2017, 63, 950, 99], [40, 2448, 516, 122], [327, 390, 19730, 952], [78, 160, 1158, 12764]]","              precision    recall  f1-score   support
+
+    hypernym       0.82      0.64      0.72      3129
+     hyponym       0.80      0.78      0.79      3126
+        none       0.88      0.92      0.90     21399
+    synonymy       0.92      0.90      0.91     14160
+
+    accuracy                           0.88     41814
+   macro avg       0.85      0.81      0.83     41814
+weighted avg       0.88      0.88      0.88     41814
+","{'lr': 1e-05, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[128]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[128]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.6139570478787009,0.5962988649782576,0.6139570478787009,0.5342544485489557,"[[0, 0, 3077, 52], [0, 0, 3043, 83], [0, 0, 20976, 423], [0, 0, 9464, 4696]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.57      0.98      0.72     21399
+    synonymy       0.89      0.33      0.48     14160
+
+    accuracy                           0.61     41814
+   macro avg       0.37      0.33      0.30     41814
+weighted avg       0.60      0.61      0.53     41814
+","{'lr': 0.01, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[512]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8890562969340412,0.8929623324209722,0.8890562969340412,0.8887856808692686,"[[2336, 61, 472, 260], [24, 2650, 317, 135], [517, 621, 18452, 1809], [29, 83, 311, 13737]]","              precision    recall  f1-score   support
+
+    hypernym       0.80      0.75      0.77      3129
+     hyponym       0.78      0.85      0.81      3126
+        none       0.94      0.86      0.90     21399
+    synonymy       0.86      0.97      0.91     14160
+
+    accuracy                           0.89     41814
+   macro avg       0.85      0.86      0.85     41814
+weighted avg       0.89      0.89      0.89     41814
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5166605097894348,0.5174920101135212,0.5166605097894348,0.378513228551315,"[[0, 0, 3027, 38], [0, 0, 3086, 29], [0, 0, 20024, 242], [0, 0, 13204, 955]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.51      0.99      0.67     20266
+    synonymy       0.76      0.07      0.12     14159
+
+    accuracy                           0.52     40605
+   macro avg       0.32      0.26      0.20     40605
+weighted avg       0.52      0.52      0.38     40605
+","{'lr': 1e-05, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5937692402413496,0.505167761059088,0.5937692402413496,0.5374297532802506,"[[0, 0, 2415, 650], [0, 0, 2447, 668], [0, 0, 16902, 3364], [0, 0, 6951, 7208]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.59      0.83      0.69     20266
+    synonymy       0.61      0.51      0.55     14159
+
+    accuracy                           0.59     40605
+   macro avg       0.30      0.34      0.31     40605
+weighted avg       0.51      0.59      0.54     40605
+","{'lr': 1e-05, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.6201206747937447,0.5607263952869138,0.6201206747937447,0.5626745664956564,"[[0, 2, 2372, 691], [0, 7, 2328, 780], [0, 7, 17471, 2788], [0, 1, 6456, 7702]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.41      0.00      0.00      3115
+        none       0.61      0.86      0.71     20266
+    synonymy       0.64      0.54      0.59     14159
+
+    accuracy                           0.62     40605
+   macro avg       0.42      0.35      0.33     40605
+weighted avg       0.56      0.62      0.56     40605
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.34870089890407585,0.12159231689651052,0.34870089890407585,0.18031027783152473,"[[0, 0, 0, 3065], [0, 0, 0, 3115], [0, 0, 0, 20266], [0, 0, 0, 14159]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.00      0.00      0.00     20266
+    synonymy       0.35      1.00      0.52     14159
+
+    accuracy                           0.35     40605
+   macro avg       0.09      0.25      0.13     40605
+weighted avg       0.12      0.35      0.18     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.34870089890407585,0.12159231689651052,0.34870089890407585,0.18031027783152473,"[[0, 0, 0, 3065], [0, 0, 0, 3115], [0, 0, 0, 20266], [0, 0, 0, 14159]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.00      0.00      0.00     20266
+    synonymy       0.35      1.00      0.52     14159
+
+    accuracy                           0.35     40605
+   macro avg       0.09      0.25      0.13     40605
+weighted avg       0.12      0.35      0.18     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[256]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.7923654722324837,0.7850227772607594,0.7923654722324837,0.784250065140192,"[[1102, 94, 1408, 461], [45, 1653, 968, 449], [416, 421, 17856, 1573], [157, 361, 2078, 11563]]","              precision    recall  f1-score   support
+
+    hypernym       0.64      0.36      0.46      3065
+     hyponym       0.65      0.53      0.59      3115
+        none       0.80      0.88      0.84     20266
+    synonymy       0.82      0.82      0.82     14159
+
+    accuracy                           0.79     40605
+   macro avg       0.73      0.65      0.68     40605
+weighted avg       0.79      0.79      0.78     40605
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.6783154783893609,0.671869411887979,0.6783154783893609,0.6295386056881932,"[[149, 31, 2623, 262], [32, 207, 2411, 465], [65, 61, 19245, 895], [144, 149, 5924, 7942]]","              precision    recall  f1-score   support
+
+    hypernym       0.38      0.05      0.09      3065
+     hyponym       0.46      0.07      0.12      3115
+        none       0.64      0.95      0.76     20266
+    synonymy       0.83      0.56      0.67     14159
+
+    accuracy                           0.68     40605
+   macro avg       0.58      0.41      0.41     40605
+weighted avg       0.67      0.68      0.63     40605
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.9176352417850481,0.918278506969605,0.9176352417850481,0.9173392327931766,"[[2574, 17, 502, 36], [25, 2714, 320, 67], [401, 284, 19353, 1361], [29, 40, 362, 13729]]","              precision    recall  f1-score   support
+
+    hypernym       0.85      0.82      0.84      3129
+     hyponym       0.89      0.87      0.88      3126
+        none       0.94      0.90      0.92     21399
+    synonymy       0.90      0.97      0.94     14160
+
+    accuracy                           0.92     41814
+   macro avg       0.90      0.89      0.89     41814
+weighted avg       0.92      0.92      0.92     41814
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8957517547100111,0.8963381129552058,0.8957517547100111,0.894935043318261,"[[2284, 19, 697, 65], [20, 2450, 566, 79], [305, 172, 18892, 897], [58, 32, 1323, 12746]]","              precision    recall  f1-score   support
+
+    hypernym       0.86      0.75      0.80      3065
+     hyponym       0.92      0.79      0.85      3115
+        none       0.88      0.93      0.91     20266
+    synonymy       0.92      0.90      0.91     14159
+
+    accuracy                           0.90     40605
+   macro avg       0.89      0.84      0.87     40605
+weighted avg       0.90      0.90      0.89     40605
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.01, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[128]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8908021236906299,0.8945456315397189,0.8908021236906299,0.8910232060370796,"[[2529, 43, 394, 163], [46, 2556, 313, 211], [763, 451, 18554, 1631], [68, 59, 424, 13609]]","              precision    recall  f1-score   support
+
+    hypernym       0.74      0.81      0.77      3129
+     hyponym       0.82      0.82      0.82      3126
+        none       0.94      0.87      0.90     21399
+    synonymy       0.87      0.96      0.91     14160
+
+    accuracy                           0.89     41814
+   macro avg       0.84      0.86      0.85     41814
+weighted avg       0.89      0.89      0.89     41814
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[128, 64]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.9034055579470991,0.9028553025005541,0.9034055579470991,0.902933933479629,"[[2421, 27, 624, 57], [23, 2584, 442, 77], [431, 309, 19487, 1172], [44, 29, 804, 13283]]","              precision    recall  f1-score   support
+
+    hypernym       0.83      0.77      0.80      3129
+     hyponym       0.88      0.83      0.85      3126
+        none       0.91      0.91      0.91     21399
+    synonymy       0.91      0.94      0.92     14160
+
+    accuracy                           0.90     41814
+   macro avg       0.88      0.86      0.87     41814
+weighted avg       0.90      0.90      0.90     41814
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[128]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.7624958147988712,0.7054197636588355,0.7624958147988712,0.7310150445883641,"[[0, 39, 2762, 328], [0, 1662, 1247, 217], [0, 640, 18707, 2052], [0, 279, 2367, 11514]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.63      0.53      0.58      3126
+        none       0.75      0.87      0.80     21399
+    synonymy       0.82      0.81      0.81     14160
+
+    accuracy                           0.76     41814
+   macro avg       0.55      0.55      0.55     41814
+weighted avg       0.71      0.76      0.73     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5736595398670302,0.48776687240552374,0.5736595398670302,0.5169145249466365,"[[0, 0, 2652, 477], [0, 0, 2645, 481], [0, 0, 17601, 3798], [0, 0, 7774, 6386]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.57      0.82      0.68     21399
+    synonymy       0.57      0.45      0.50     14160
+
+    accuracy                           0.57     41814
+   macro avg       0.29      0.32      0.30     41814
+weighted avg       0.49      0.57      0.52     41814
+","{'lr': 1e-05, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.01, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.9020902090209021,0.902102372755854,0.9020902090209021,0.9009788663371232,"[[2220, 22, 810, 77], [13, 2570, 475, 68], [220, 228, 19876, 1075], [19, 42, 1045, 13054]]","              precision    recall  f1-score   support
+
+    hypernym       0.90      0.71      0.79      3129
+     hyponym       0.90      0.82      0.86      3126
+        none       0.90      0.93      0.91     21399
+    synonymy       0.91      0.92      0.92     14160
+
+    accuracy                           0.90     41814
+   macro avg       0.90      0.85      0.87     41814
+weighted avg       0.90      0.90      0.90     41814
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8251303391208686,0.829239420788126,0.8251303391208686,0.8265595688133621,"[[2077, 79, 734, 239], [111, 2123, 565, 327], [1159, 519, 17972, 1749], [342, 278, 1210, 12330]]","              precision    recall  f1-score   support
+
+    hypernym       0.56      0.66      0.61      3129
+     hyponym       0.71      0.68      0.69      3126
+        none       0.88      0.84      0.86     21399
+    synonymy       0.84      0.87      0.86     14160
+
+    accuracy                           0.83     41814
+   macro avg       0.75      0.76      0.75     41814
+weighted avg       0.83      0.83      0.83     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8241498062849764,0.8185907080343371,0.8241498062849764,0.8152764149848918,"[[1173, 45, 1394, 517], [33, 1721, 869, 503], [334, 303, 19213, 1549], [98, 177, 1531, 12354]]","              precision    recall  f1-score   support
+
+    hypernym       0.72      0.37      0.49      3129
+     hyponym       0.77      0.55      0.64      3126
+        none       0.84      0.90      0.87     21399
+    synonymy       0.83      0.87      0.85     14160
+
+    accuracy                           0.82     41814
+   macro avg       0.79      0.67      0.71     41814
+weighted avg       0.82      0.82      0.82     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5696589090013545,0.4851464754999264,0.5696589090013545,0.5120086784225847,"[[0, 0, 2547, 518], [0, 0, 2577, 538], [0, 0, 16771, 3495], [0, 0, 7799, 6360]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.56      0.83      0.67     20266
+    synonymy       0.58      0.45      0.51     14159
+
+    accuracy                           0.57     40605
+   macro avg       0.29      0.32      0.29     40605
+weighted avg       0.49      0.57      0.51     40605
+","{'lr': 1e-05, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[128]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8100480236424086,0.8182949584930401,0.8100480236424086,0.8043830684327244,"[[1415, 54, 1553, 43], [92, 1842, 1126, 55], [282, 149, 19244, 591], [584, 436, 2748, 10391]]","              precision    recall  f1-score   support
+
+    hypernym       0.60      0.46      0.52      3065
+     hyponym       0.74      0.59      0.66      3115
+        none       0.78      0.95      0.86     20266
+    synonymy       0.94      0.73      0.82     14159
+
+    accuracy                           0.81     40605
+   macro avg       0.76      0.68      0.71     40605
+weighted avg       0.82      0.81      0.80     40605
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[256]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.7198306787200459,0.7185627293611551,0.7198306787200459,0.6766418156509755,"[[80, 25, 1410, 1614], [20, 291, 1167, 1648], [28, 54, 17440, 3877], [10, 47, 1815, 12288]]","              precision    recall  f1-score   support
+
+    hypernym       0.58      0.03      0.05      3129
+     hyponym       0.70      0.09      0.16      3126
+        none       0.80      0.81      0.81     21399
+    synonymy       0.63      0.87      0.73     14160
+
+    accuracy                           0.72     41814
+   macro avg       0.68      0.45      0.44     41814
+weighted avg       0.72      0.72      0.68     41814
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.34870089890407585,0.12159231689651052,0.34870089890407585,0.18031027783152473,"[[0, 0, 0, 3065], [0, 0, 0, 3115], [0, 0, 0, 20266], [0, 0, 0, 14159]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.00      0.00      0.00     20266
+    synonymy       0.35      1.00      0.52     14159
+
+    accuracy                           0.35     40605
+   macro avg       0.09      0.25      0.13     40605
+weighted avg       0.12      0.35      0.18     40605
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[128]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5271440187497011,0.5799300177581731,0.5271440187497011,0.38146458583931897,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21344, 55], [0, 0, 13462, 698]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.52      1.00      0.68     21399
+    synonymy       0.93      0.05      0.09     14160
+
+    accuracy                           0.53     41814
+   macro avg       0.36      0.26      0.19     41814
+weighted avg       0.58      0.53      0.38     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[256]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.894914419406477,0.894336134060666,0.894914419406477,0.8944328696183709,"[[2303, 40, 652, 70], [29, 2556, 453, 77], [436, 393, 18219, 1218], [60, 102, 737, 13260]]","              precision    recall  f1-score   support
+
+    hypernym       0.81      0.75      0.78      3065
+     hyponym       0.83      0.82      0.82      3115
+        none       0.91      0.90      0.90     20266
+    synonymy       0.91      0.94      0.92     14159
+
+    accuracy                           0.89     40605
+   macro avg       0.86      0.85      0.86     40605
+weighted avg       0.89      0.89      0.89     40605
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.01, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8984361531831055,0.898938145111622,0.8984361531831055,0.8982999569842338,"[[2501, 27, 425, 112], [33, 2607, 379, 96], [491, 386, 18019, 1370], [49, 58, 698, 13354]]","              precision    recall  f1-score   support
+
+    hypernym       0.81      0.82      0.81      3065
+     hyponym       0.85      0.84      0.84      3115
+        none       0.92      0.89      0.91     20266
+    synonymy       0.89      0.94      0.92     14159
+
+    accuracy                           0.90     40605
+   macro avg       0.87      0.87      0.87     40605
+weighted avg       0.90      0.90      0.90     40605
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5243698282871766,0.5876390185890852,0.5243698282871766,0.3747526419491144,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21371, 28], [0, 0, 13605, 555]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.52      1.00      0.68     21399
+    synonymy       0.95      0.04      0.08     14160
+
+    accuracy                           0.52     41814
+   macro avg       0.37      0.26      0.19     41814
+weighted avg       0.59      0.52      0.37     41814
+","{'lr': 0.01, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.9029272492466638,0.9028611956181776,0.9029272492466638,0.9025834156123671,"[[2424, 17, 584, 104], [28, 2646, 353, 99], [449, 408, 19284, 1258], [41, 61, 657, 13401]]","              precision    recall  f1-score   support
+
+    hypernym       0.82      0.77      0.80      3129
+     hyponym       0.84      0.85      0.85      3126
+        none       0.92      0.90      0.91     21399
+    synonymy       0.90      0.95      0.92     14160
+
+    accuracy                           0.90     41814
+   macro avg       0.87      0.87      0.87     41814
+weighted avg       0.90      0.90      0.90     41814
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.6486344286602573,0.5854388442456899,0.6486344286602573,0.5981509207318013,"[[0, 0, 2083, 1046], [0, 0, 820, 2306], [31, 0, 14020, 7348], [0, 0, 1058, 13102]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.78      0.66      0.71     21399
+    synonymy       0.55      0.93      0.69     14160
+
+    accuracy                           0.65     41814
+   macro avg       0.33      0.40      0.35     41814
+weighted avg       0.59      0.65      0.60     41814
+","{'lr': 0.01, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[256]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.904568402906046,0.9055653578558147,0.904568402906046,0.9045565302985862,"[[2554, 28, 415, 68], [31, 2678, 338, 68], [548, 392, 18010, 1316], [39, 67, 565, 13488]]","              precision    recall  f1-score   support
+
+    hypernym       0.81      0.83      0.82      3065
+     hyponym       0.85      0.86      0.85      3115
+        none       0.93      0.89      0.91     20266
+    synonymy       0.90      0.95      0.93     14159
+
+    accuracy                           0.90     40605
+   macro avg       0.87      0.88      0.88     40605
+weighted avg       0.91      0.90      0.90     40605
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.7355431195293443,0.7518405655152863,0.7355431195293443,0.7183245223377039,"[[755, 90, 2128, 156], [53, 1401, 1540, 132], [284, 407, 20102, 606], [189, 549, 4924, 8498]]","              precision    recall  f1-score   support
+
+    hypernym       0.59      0.24      0.34      3129
+     hyponym       0.57      0.45      0.50      3126
+        none       0.70      0.94      0.80     21399
+    synonymy       0.90      0.60      0.72     14160
+
+    accuracy                           0.74     41814
+   macro avg       0.69      0.56      0.59     41814
+weighted avg       0.75      0.74      0.72     41814
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.9031400073882527,0.9032252530061156,0.9031400073882527,0.902658828857008,"[[2418, 31, 512, 104], [23, 2601, 403, 88], [391, 336, 18151, 1388], [22, 39, 596, 13502]]","              precision    recall  f1-score   support
+
+    hypernym       0.85      0.79      0.82      3065
+     hyponym       0.86      0.83      0.85      3115
+        none       0.92      0.90      0.91     20266
+    synonymy       0.90      0.95      0.92     14159
+
+    accuracy                           0.90     40605
+   macro avg       0.88      0.87      0.87     40605
+weighted avg       0.90      0.90      0.90     40605
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[512]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.7020563969954439,0.6440717620976519,0.7020563969954439,0.6461837553406685,"[[0, 44, 2322, 699], [0, 115, 2081, 919], [0, 31, 18618, 1617], [0, 16, 4369, 9774]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.56      0.04      0.07      3115
+        none       0.68      0.92      0.78     20266
+    synonymy       0.75      0.69      0.72     14159
+
+    accuracy                           0.70     40605
+   macro avg       0.50      0.41      0.39     40605
+weighted avg       0.64      0.70      0.65     40605
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[256]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.6806550917374707,0.7130424424832313,0.6806550917374707,0.6742758994235883,"[[527, 348, 926, 1264], [12, 1839, 541, 723], [266, 1707, 13228, 5065], [48, 941, 1126, 12044]]","              precision    recall  f1-score   support
+
+    hypernym       0.62      0.17      0.27      3065
+     hyponym       0.38      0.59      0.46      3115
+        none       0.84      0.65      0.73     20266
+    synonymy       0.63      0.85      0.72     14159
+
+    accuracy                           0.68     40605
+   macro avg       0.62      0.57      0.55     40605
+weighted avg       0.71      0.68      0.67     40605
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[128]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.6802984646290716,0.5805935100073639,0.6802984646290716,0.6232198354956018,"[[0, 0, 2602, 527], [0, 0, 2211, 915], [0, 0, 18767, 2632], [0, 0, 4481, 9679]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.67      0.88      0.76     21399
+    synonymy       0.70      0.68      0.69     14160
+
+    accuracy                           0.68     41814
+   macro avg       0.34      0.39      0.36     41814
+weighted avg       0.58      0.68      0.62     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[128, 64]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[256]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.07548331486270164,0.0056977308226617545,0.07548331486270164,0.010595665676857362,"[[3065, 0, 0, 0], [3115, 0, 0, 0], [20266, 0, 0, 0], [14159, 0, 0, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.08      1.00      0.14      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.00      0.00      0.00     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.08     40605
+   macro avg       0.02      0.25      0.04     40605
+weighted avg       0.01      0.08      0.01     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.9037064400935846,0.9032352715851243,0.9037064400935846,0.9029926710017763,"[[2358, 13, 623, 71], [17, 2517, 499, 82], [358, 250, 18400, 1258], [52, 39, 648, 13420]]","              precision    recall  f1-score   support
+
+    hypernym       0.85      0.77      0.81      3065
+     hyponym       0.89      0.81      0.85      3115
+        none       0.91      0.91      0.91     20266
+    synonymy       0.90      0.95      0.93     14159
+
+    accuracy                           0.90     40605
+   macro avg       0.89      0.86      0.87     40605
+weighted avg       0.90      0.90      0.90     40605
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8475391017362606,0.8452780304237412,0.8475391017362606,0.8456835543638702,"[[1850, 53, 934, 292], [32, 2172, 655, 267], [614, 506, 18629, 1650], [103, 193, 1076, 12788]]","              precision    recall  f1-score   support
+
+    hypernym       0.71      0.59      0.65      3129
+     hyponym       0.74      0.69      0.72      3126
+        none       0.87      0.87      0.87     21399
+    synonymy       0.85      0.90      0.88     14160
+
+    accuracy                           0.85     41814
+   macro avg       0.80      0.76      0.78     41814
+weighted avg       0.85      0.85      0.85     41814
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[256]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8163772934367689,0.8109096159650443,0.8163772934367689,0.811844450398569,"[[1452, 64, 1277, 272], [72, 1813, 977, 253], [639, 384, 17369, 1874], [140, 217, 1287, 12515]]","              precision    recall  f1-score   support
+
+    hypernym       0.63      0.47      0.54      3065
+     hyponym       0.73      0.58      0.65      3115
+        none       0.83      0.86      0.84     20266
+    synonymy       0.84      0.88      0.86     14159
+
+    accuracy                           0.82     40605
+   macro avg       0.76      0.70      0.72     40605
+weighted avg       0.81      0.82      0.81     40605
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[128]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.7909370767146903,0.8076071356576866,0.7909370767146903,0.7893615529208562,"[[1890, 46, 1066, 63], [164, 1687, 1138, 126], [945, 226, 18495, 600], [683, 210, 3222, 10044]]","              precision    recall  f1-score   support
+
+    hypernym       0.51      0.62      0.56      3065
+     hyponym       0.78      0.54      0.64      3115
+        none       0.77      0.91      0.84     20266
+    synonymy       0.93      0.71      0.80     14159
+
+    accuracy                           0.79     40605
+   macro avg       0.75      0.70      0.71     40605
+weighted avg       0.81      0.79      0.79     40605
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.859209834026881,0.8572691298496566,0.859209834026881,0.8551850709121016,"[[1726, 17, 1127, 259], [22, 2001, 784, 319], [397, 235, 19436, 1331], [80, 72, 1244, 12764]]","              precision    recall  f1-score   support
+
+    hypernym       0.78      0.55      0.64      3129
+     hyponym       0.86      0.64      0.73      3126
+        none       0.86      0.91      0.88     21399
+    synonymy       0.87      0.90      0.89     14160
+
+    accuracy                           0.86     41814
+   macro avg       0.84      0.75      0.79     41814
+weighted avg       0.86      0.86      0.86     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[256]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8437126321327785,0.842038970850082,0.8437126321327785,0.8397888246300145,"[[1692, 13, 1226, 198], [8, 1974, 878, 266], [468, 289, 19090, 1552], [41, 54, 1542, 12523]]","              precision    recall  f1-score   support
+
+    hypernym       0.77      0.54      0.63      3129
+     hyponym       0.85      0.63      0.72      3126
+        none       0.84      0.89      0.87     21399
+    synonymy       0.86      0.88      0.87     14160
+
+    accuracy                           0.84     41814
+   macro avg       0.83      0.74      0.77     41814
+weighted avg       0.84      0.84      0.84     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.6740549193449082,0.5711075066005615,0.6740549193449082,0.6175254537680009,"[[0, 0, 2104, 961], [0, 0, 2059, 1056], [0, 0, 17193, 3073], [0, 0, 3982, 10177]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.68      0.85      0.75     20266
+    synonymy       0.67      0.72      0.69     14159
+
+    accuracy                           0.67     40605
+   macro avg       0.34      0.39      0.36     40605
+weighted avg       0.57      0.67      0.62     40605
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.40328598077199024,0.525397612986171,0.40328598077199024,0.30204369460556707,"[[0, 0, 212, 2917], [0, 0, 304, 2822], [0, 0, 3010, 18389], [0, 0, 307, 13853]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.79      0.14      0.24     21399
+    synonymy       0.36      0.98      0.53     14160
+
+    accuracy                           0.40     41814
+   macro avg       0.29      0.28      0.19     41814
+weighted avg       0.53      0.40      0.30     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8953577145671715,0.8954916954478547,0.8953577145671715,0.8954095752183766,"[[2408, 39, 573, 45], [45, 2570, 446, 54], [519, 371, 18291, 1085], [138, 137, 797, 13087]]","              precision    recall  f1-score   support
+
+    hypernym       0.77      0.79      0.78      3065
+     hyponym       0.82      0.83      0.82      3115
+        none       0.91      0.90      0.91     20266
+    synonymy       0.92      0.92      0.92     14159
+
+    accuracy                           0.90     40605
+   macro avg       0.86      0.86      0.86     40605
+weighted avg       0.90      0.90      0.90     40605
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.7788300569187353,0.7730183853666796,0.7788300569187353,0.7593794158274159,"[[440, 57, 2409, 223], [9, 1602, 1284, 231], [212, 396, 19191, 1600], [30, 184, 2613, 11333]]","              precision    recall  f1-score   support
+
+    hypernym       0.64      0.14      0.23      3129
+     hyponym       0.72      0.51      0.60      3126
+        none       0.75      0.90      0.82     21399
+    synonymy       0.85      0.80      0.82     14160
+
+    accuracy                           0.78     41814
+   macro avg       0.74      0.59      0.62     41814
+weighted avg       0.77      0.78      0.76     41814
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.887821696835365,0.8899301537301814,0.887821696835365,0.8886410784332217,"[[2437, 54, 546, 28], [83, 2587, 395, 50], [610, 504, 18148, 1004], [216, 204, 861, 12878]]","              precision    recall  f1-score   support
+
+    hypernym       0.73      0.80      0.76      3065
+     hyponym       0.77      0.83      0.80      3115
+        none       0.91      0.90      0.90     20266
+    synonymy       0.92      0.91      0.92     14159
+
+    accuracy                           0.89     40605
+   macro avg       0.83      0.86      0.84     40605
+weighted avg       0.89      0.89      0.89     40605
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8984854082009605,0.8981549672410174,0.8984854082009605,0.8974896027790377,"[[2208, 22, 774, 61], [23, 2515, 501, 76], [261, 251, 18704, 1050], [42, 45, 1016, 13056]]","              precision    recall  f1-score   support
+
+    hypernym       0.87      0.72      0.79      3065
+     hyponym       0.89      0.81      0.85      3115
+        none       0.89      0.92      0.91     20266
+    synonymy       0.92      0.92      0.92     14159
+
+    accuracy                           0.90     40605
+   macro avg       0.89      0.84      0.87     40605
+weighted avg       0.90      0.90      0.90     40605
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5931267039747453,0.5030808139233867,0.5931267039747453,0.5429378766993148,"[[0, 0, 2562, 567], [0, 0, 2417, 709], [0, 0, 16472, 4927], [0, 0, 5831, 8329]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.60      0.77      0.68     21399
+    synonymy       0.57      0.59      0.58     14160
+
+    accuracy                           0.59     41814
+   macro avg       0.29      0.34      0.31     41814
+weighted avg       0.50      0.59      0.54     41814
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[128]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.7636251693141238,0.7540391064755743,0.7636251693141238,0.7394367087192651,"[[565, 42, 1825, 633], [28, 853, 1506, 728], [221, 171, 18166, 1708], [81, 151, 2504, 11423]]","              precision    recall  f1-score   support
+
+    hypernym       0.63      0.18      0.29      3065
+     hyponym       0.70      0.27      0.39      3115
+        none       0.76      0.90      0.82     20266
+    synonymy       0.79      0.81      0.80     14159
+
+    accuracy                           0.76     40605
+   macro avg       0.72      0.54      0.57     40605
+weighted avg       0.75      0.76      0.74     40605
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[128]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8066247999014899,0.8026550727715319,0.8066247999014899,0.799571526719936,"[[1300, 30, 1109, 626], [27, 1604, 841, 643], [525, 301, 17227, 2213], [125, 146, 1266, 12622]]","              precision    recall  f1-score   support
+
+    hypernym       0.66      0.42      0.52      3065
+     hyponym       0.77      0.51      0.62      3115
+        none       0.84      0.85      0.85     20266
+    synonymy       0.78      0.89      0.83     14159
+
+    accuracy                           0.81     40605
+   macro avg       0.76      0.67      0.70     40605
+weighted avg       0.80      0.81      0.80     40605
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[512]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.6049887597455398,0.6062571045710733,0.6049887597455398,0.5187053449739529,"[[0, 0, 3104, 25], [0, 0, 3075, 51], [0, 0, 21187, 212], [0, 0, 10050, 4110]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.57      0.99      0.72     21399
+    synonymy       0.93      0.29      0.44     14160
+
+    accuracy                           0.60     41814
+   macro avg       0.38      0.32      0.29     41814
+weighted avg       0.61      0.60      0.52     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.3386425599081647,0.11467878338115493,0.3386425599081647,0.17133592912064932,"[[0, 0, 0, 3129], [0, 0, 0, 3126], [0, 0, 0, 21399], [0, 0, 0, 14160]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.00      0.00      0.00     21399
+    synonymy       0.34      1.00      0.51     14160
+
+    accuracy                           0.34     41814
+   macro avg       0.08      0.25      0.13     41814
+weighted avg       0.11      0.34      0.17     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[128]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.7519012770842302,0.7704377829390199,0.7519012770842302,0.7450117858345273,"[[896, 113, 843, 1277], [15, 1692, 468, 951], [446, 966, 15687, 4300], [39, 307, 649, 13165]]","              precision    recall  f1-score   support
+
+    hypernym       0.64      0.29      0.40      3129
+     hyponym       0.55      0.54      0.55      3126
+        none       0.89      0.73      0.80     21399
+    synonymy       0.67      0.93      0.78     14160
+
+    accuracy                           0.75     41814
+   macro avg       0.69      0.62      0.63     41814
+weighted avg       0.77      0.75      0.75     41814
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[256]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8847754340651457,0.8844492461974955,0.8847754340651457,0.8843051107556036,"[[2278, 35, 707, 109], [55, 2376, 515, 180], [664, 340, 19141, 1254], [129, 66, 764, 13201]]","              precision    recall  f1-score   support
+
+    hypernym       0.73      0.73      0.73      3129
+     hyponym       0.84      0.76      0.80      3126
+        none       0.91      0.89      0.90     21399
+    synonymy       0.90      0.93      0.91     14160
+
+    accuracy                           0.88     41814
+   macro avg       0.84      0.83      0.84     41814
+weighted avg       0.88      0.88      0.88     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.9060601712345148,0.9074376294293665,0.9060601712345148,0.9059693832368719,"[[2583, 27, 454, 65], [31, 2602, 371, 122], [582, 316, 19083, 1418], [76, 26, 440, 13618]]","              precision    recall  f1-score   support
+
+    hypernym       0.79      0.83      0.81      3129
+     hyponym       0.88      0.83      0.85      3126
+        none       0.94      0.89      0.91     21399
+    synonymy       0.89      0.96      0.93     14160
+
+    accuracy                           0.91     41814
+   macro avg       0.87      0.88      0.88     41814
+weighted avg       0.91      0.91      0.91     41814
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8001865403931697,0.7934733713916,0.8001865403931697,0.7871188928949631,"[[898, 39, 1599, 593], [25, 1480, 1012, 609], [284, 318, 18944, 1853], [74, 185, 1764, 12137]]","              precision    recall  f1-score   support
+
+    hypernym       0.70      0.29      0.41      3129
+     hyponym       0.73      0.47      0.57      3126
+        none       0.81      0.89      0.85     21399
+    synonymy       0.80      0.86      0.83     14160
+
+    accuracy                           0.80     41814
+   macro avg       0.76      0.63      0.66     41814
+weighted avg       0.79      0.80      0.79     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[128]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5596929258143205,0.4732830019922099,0.5596929258143205,0.5041433724832639,"[[0, 0, 2595, 534], [0, 0, 2601, 525], [0, 0, 17201, 4198], [0, 0, 7958, 6202]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.57      0.80      0.66     21399
+    synonymy       0.54      0.44      0.48     14160
+
+    accuracy                           0.56     41814
+   macro avg       0.28      0.31      0.29     41814
+weighted avg       0.47      0.56      0.50     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.6974017978081517,0.7091492479546548,0.6974017978081517,0.6573621580281588,"[[358, 17, 2439, 251], [46, 307, 2293, 469], [195, 48, 19192, 831], [182, 66, 5450, 8461]]","              precision    recall  f1-score   support
+
+    hypernym       0.46      0.12      0.19      3065
+     hyponym       0.70      0.10      0.17      3115
+        none       0.65      0.95      0.77     20266
+    synonymy       0.85      0.60      0.70     14159
+
+    accuracy                           0.70     40605
+   macro avg       0.66      0.44      0.46     40605
+weighted avg       0.71      0.70      0.66     40605
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8870234849571914,0.8876989443550941,0.8870234849571914,0.8869692665817649,"[[2431, 24, 555, 119], [34, 2497, 479, 116], [708, 422, 18881, 1388], [78, 72, 729, 13281]]","              precision    recall  f1-score   support
+
+    hypernym       0.75      0.78      0.76      3129
+     hyponym       0.83      0.80      0.81      3126
+        none       0.91      0.88      0.90     21399
+    synonymy       0.89      0.94      0.91     14160
+
+    accuracy                           0.89     41814
+   macro avg       0.85      0.85      0.85     41814
+weighted avg       0.89      0.89      0.89     41814
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.6430382168651648,0.5662227358041922,0.6430382168651648,0.5815656181794864,"[[0, 0, 2865, 264], [0, 0, 2727, 399], [0, 0, 19619, 1780], [0, 0, 6891, 7269]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.61      0.92      0.73     21399
+    synonymy       0.75      0.51      0.61     14160
+
+    accuracy                           0.64     41814
+   macro avg       0.34      0.36      0.34     41814
+weighted avg       0.57      0.64      0.58     41814
+","{'lr': 0.01, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.6195296145794853,0.5306030750584725,0.6195296145794853,0.561732296288786,"[[0, 0, 2459, 606], [0, 0, 2468, 647], [0, 0, 17505, 2761], [0, 0, 6508, 7651]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.60      0.86      0.71     20266
+    synonymy       0.66      0.54      0.59     14159
+
+    accuracy                           0.62     40605
+   macro avg       0.32      0.35      0.33     40605
+weighted avg       0.53      0.62      0.56     40605
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[256, 128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.6484191897450614,0.6173765154360471,0.6484191897450614,0.5890890657193675,"[[0, 0, 2631, 498], [0, 56, 2503, 567], [0, 21, 19548, 1830], [0, 1, 6650, 7509]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.72      0.02      0.03      3126
+        none       0.62      0.91      0.74     21399
+    synonymy       0.72      0.53      0.61     14160
+
+    accuracy                           0.65     41814
+   macro avg       0.52      0.37      0.35     41814
+weighted avg       0.62      0.65      0.59     41814
+","{'lr': 0.01, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.6456449992825369,0.6085333843864116,0.6456449992825369,0.5862101588547446,"[[0, 120, 2719, 290], [0, 205, 2498, 423], [0, 82, 20375, 942], [0, 220, 7523, 6417]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.33      0.07      0.11      3126
+        none       0.62      0.95      0.75     21399
+    synonymy       0.79      0.45      0.58     14160
+
+    accuracy                           0.65     41814
+   macro avg       0.43      0.37      0.36     41814
+weighted avg       0.61      0.65      0.59     41814
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[128, 64]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.34870089890407585,0.12159231689651052,0.34870089890407585,0.18031027783152473,"[[0, 0, 0, 3065], [0, 0, 0, 3115], [0, 0, 0, 20266], [0, 0, 0, 14159]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.00      0.00      0.00     20266
+    synonymy       0.35      1.00      0.52     14159
+
+    accuracy                           0.35     40605
+   macro avg       0.09      0.25      0.13     40605
+weighted avg       0.12      0.35      0.18     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.6200793992442722,0.5290848559405346,0.6200793992442722,0.5640018649851668,"[[0, 0, 2512, 617], [0, 0, 2505, 621], [0, 0, 18146, 3253], [0, 0, 6378, 7782]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.61      0.85      0.71     21399
+    synonymy       0.63      0.55      0.59     14160
+
+    accuracy                           0.62     41814
+   macro avg       0.31      0.35      0.33     41814
+weighted avg       0.53      0.62      0.56     41814
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[128]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8840290604605344,0.8838960144799629,0.8840290604605344,0.8830328024638782,"[[2247, 24, 608, 186], [32, 2330, 520, 233], [491, 342, 17913, 1520], [78, 54, 621, 13406]]","              precision    recall  f1-score   support
+
+    hypernym       0.79      0.73      0.76      3065
+     hyponym       0.85      0.75      0.79      3115
+        none       0.91      0.88      0.90     20266
+    synonymy       0.87      0.95      0.91     14159
+
+    accuracy                           0.88     40605
+   macro avg       0.86      0.83      0.84     40605
+weighted avg       0.88      0.88      0.88     40605
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.903812120342469,0.9037148182595557,0.903812120342469,0.9026873377514545,"[[2257, 12, 801, 59], [21, 2492, 532, 81], [257, 189, 19897, 1056], [28, 23, 963, 13146]]","              precision    recall  f1-score   support
+
+    hypernym       0.88      0.72      0.79      3129
+     hyponym       0.92      0.80      0.85      3126
+        none       0.90      0.93      0.91     21399
+    synonymy       0.92      0.93      0.92     14160
+
+    accuracy                           0.90     41814
+   macro avg       0.90      0.84      0.87     41814
+weighted avg       0.90      0.90      0.90     41814
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8669129417559414,0.8667863650127493,0.8669129417559414,0.86624390102716,"[[2211, 20, 651, 183], [38, 2289, 543, 245], [644, 364, 17632, 1626], [103, 128, 859, 13069]]","              precision    recall  f1-score   support
+
+    hypernym       0.74      0.72      0.73      3065
+     hyponym       0.82      0.73      0.77      3115
+        none       0.90      0.87      0.88     20266
+    synonymy       0.86      0.92      0.89     14159
+
+    accuracy                           0.87     40605
+   macro avg       0.83      0.81      0.82     40605
+weighted avg       0.87      0.87      0.87     40605
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[512]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.3386425599081647,0.11467878338115493,0.3386425599081647,0.17133592912064932,"[[0, 0, 0, 3129], [0, 0, 0, 3126], [0, 0, 0, 21399], [0, 0, 0, 14160]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.00      0.00      0.00     21399
+    synonymy       0.34      1.00      0.51     14160
+
+    accuracy                           0.34     41814
+   macro avg       0.08      0.25      0.13     41814
+weighted avg       0.11      0.34      0.17     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[512]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.6950064571674559,0.599273133700014,0.6950064571674559,0.6385049168851346,"[[0, 0, 1958, 1171], [0, 0, 2341, 785], [0, 0, 16005, 5394], [0, 0, 1104, 13056]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.75      0.75      0.75     21399
+    synonymy       0.64      0.92      0.76     14160
+
+    accuracy                           0.70     41814
+   macro avg       0.35      0.42      0.38     41814
+weighted avg       0.60      0.70      0.64     41814
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.7106710671067107,0.7478519043048621,0.7106710671067107,0.6737385869887204,"[[333, 11, 2598, 187], [2, 611, 2195, 318], [88, 57, 20511, 743], [31, 66, 5802, 8261]]","              precision    recall  f1-score   support
+
+    hypernym       0.73      0.11      0.19      3129
+     hyponym       0.82      0.20      0.32      3126
+        none       0.66      0.96      0.78     21399
+    synonymy       0.87      0.58      0.70     14160
+
+    accuracy                           0.71     41814
+   macro avg       0.77      0.46      0.50     41814
+weighted avg       0.75      0.71      0.67     41814
+","{'lr': 0.01, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[128]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.6357918400535706,0.5891805921175668,0.6357918400535706,0.5661527582534441,"[[0, 0, 2979, 150], [0, 0, 2938, 188], [0, 0, 20624, 775], [0, 0, 8199, 5961]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.59      0.96      0.73     21399
+    synonymy       0.84      0.42      0.56     14160
+
+    accuracy                           0.64     41814
+   macro avg       0.36      0.35      0.32     41814
+weighted avg       0.59      0.64      0.57     41814
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[128]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.01, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[256, 128, 64]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[128]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8140335772707705,0.810534614865842,0.8140335772707705,0.8102432196710376,"[[1393, 104, 1207, 425], [15, 2089, 680, 342], [548, 646, 18418, 1787], [82, 382, 1558, 12138]]","              precision    recall  f1-score   support
+
+    hypernym       0.68      0.45      0.54      3129
+     hyponym       0.65      0.67      0.66      3126
+        none       0.84      0.86      0.85     21399
+    synonymy       0.83      0.86      0.84     14160
+
+    accuracy                           0.81     41814
+   macro avg       0.75      0.71      0.72     41814
+weighted avg       0.81      0.81      0.81     41814
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[256]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.753355498091368,0.7441992276143372,0.753355498091368,0.7451790453157582,"[[1033, 95, 1458, 479], [69, 1399, 1180, 467], [668, 442, 17386, 1770], [254, 422, 2711, 10772]]","              precision    recall  f1-score   support
+
+    hypernym       0.51      0.34      0.41      3065
+     hyponym       0.59      0.45      0.51      3115
+        none       0.76      0.86      0.81     20266
+    synonymy       0.80      0.76      0.78     14159
+
+    accuracy                           0.75     40605
+   macro avg       0.67      0.60      0.63     40605
+weighted avg       0.74      0.75      0.75     40605
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.7762098263760621,0.7675315877243241,0.7762098263760621,0.7564407396739147,"[[729, 37, 1626, 673], [41, 973, 1306, 795], [261, 173, 17801, 2031], [110, 133, 1901, 12015]]","              precision    recall  f1-score   support
+
+    hypernym       0.64      0.24      0.35      3065
+     hyponym       0.74      0.31      0.44      3115
+        none       0.79      0.88      0.83     20266
+    synonymy       0.77      0.85      0.81     14159
+
+    accuracy                           0.78     40605
+   macro avg       0.73      0.57      0.61     40605
+weighted avg       0.77      0.78      0.76     40605
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8311570287463529,0.8319476454339944,0.8311570287463529,0.8308990887433843,"[[1915, 71, 819, 324], [62, 2189, 498, 377], [869, 717, 17974, 1839], [159, 214, 1111, 12676]]","              precision    recall  f1-score   support
+
+    hypernym       0.64      0.61      0.62      3129
+     hyponym       0.69      0.70      0.69      3126
+        none       0.88      0.84      0.86     21399
+    synonymy       0.83      0.90      0.86     14160
+
+    accuracy                           0.83     41814
+   macro avg       0.76      0.76      0.76     41814
+weighted avg       0.83      0.83      0.83     41814
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.6718138160325083,0.7375275904972033,0.6718138160325083,0.6808630810827878,"[[591, 653, 1263, 558], [6, 2347, 622, 140], [307, 2628, 16156, 1175], [80, 3148, 2746, 8185]]","              precision    recall  f1-score   support
+
+    hypernym       0.60      0.19      0.29      3065
+     hyponym       0.27      0.75      0.39      3115
+        none       0.78      0.80      0.79     20266
+    synonymy       0.81      0.58      0.68     14159
+
+    accuracy                           0.67     40605
+   macro avg       0.61      0.58      0.54     40605
+weighted avg       0.74      0.67      0.68     40605
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.07750277059475434,0.35459068423700096,0.07750277059475434,0.012512281389845371,"[[0, 3065, 0, 0], [0, 3115, 0, 0], [0, 20266, 0, 0], [0, 14127, 0, 32]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.08      1.00      0.14      3115
+        none       0.00      0.00      0.00     20266
+    synonymy       1.00      0.00      0.00     14159
+
+    accuracy                           0.08     40605
+   macro avg       0.27      0.25      0.04     40605
+weighted avg       0.35      0.08      0.01     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.7421676950303726,0.662943577475731,0.7421676950303726,0.6848605343714872,"[[59, 0, 2754, 316], [11, 0, 2262, 853], [62, 0, 19730, 1607], [39, 0, 2877, 11244]]","              precision    recall  f1-score   support
+
+    hypernym       0.35      0.02      0.04      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.71      0.92      0.80     21399
+    synonymy       0.80      0.79      0.80     14160
+
+    accuracy                           0.74     41814
+   macro avg       0.47      0.43      0.41     41814
+weighted avg       0.66      0.74      0.68     41814
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[128, 64]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.793298895106902,0.7886926198213757,0.793298895106902,0.77671336771729,"[[777, 22, 1796, 534], [29, 1304, 1246, 547], [204, 216, 19338, 1641], [91, 142, 2175, 11752]]","              precision    recall  f1-score   support
+
+    hypernym       0.71      0.25      0.37      3129
+     hyponym       0.77      0.42      0.54      3126
+        none       0.79      0.90      0.84     21399
+    synonymy       0.81      0.83      0.82     14160
+
+    accuracy                           0.79     41814
+   macro avg       0.77      0.60      0.64     41814
+weighted avg       0.79      0.79      0.78     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[128]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8878366097479313,0.8891430309715543,0.8878366097479313,0.8879606059463676,"[[2416, 39, 538, 136], [47, 2506, 400, 173], [707, 393, 18909, 1390], [138, 83, 646, 13293]]","              precision    recall  f1-score   support
+
+    hypernym       0.73      0.77      0.75      3129
+     hyponym       0.83      0.80      0.82      3126
+        none       0.92      0.88      0.90     21399
+    synonymy       0.89      0.94      0.91     14160
+
+    accuracy                           0.89     41814
+   macro avg       0.84      0.85      0.85     41814
+weighted avg       0.89      0.89      0.89     41814
+","{'lr': 1e-05, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[256]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.9002093338258835,0.9000607646630329,0.9002093338258835,0.8995260393764621,"[[2352, 26, 569, 118], [28, 2535, 447, 105], [407, 314, 18155, 1390], [25, 36, 587, 13511]]","              precision    recall  f1-score   support
+
+    hypernym       0.84      0.77      0.80      3065
+     hyponym       0.87      0.81      0.84      3115
+        none       0.92      0.90      0.91     20266
+    synonymy       0.89      0.95      0.92     14159
+
+    accuracy                           0.90     40605
+   macro avg       0.88      0.86      0.87     40605
+weighted avg       0.90      0.90      0.90     40605
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[128]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.07548331486270164,0.0056977308226617545,0.07548331486270164,0.010595665676857362,"[[3065, 0, 0, 0], [3115, 0, 0, 0], [20266, 0, 0, 0], [14159, 0, 0, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.08      1.00      0.14      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.00      0.00      0.00     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.08     40605
+   macro avg       0.02      0.25      0.04     40605
+weighted avg       0.01      0.08      0.01     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5116707322906203,0.2618809375816069,0.5116707322906203,0.34644566439231705,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21395, 4], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5350361123068829,0.5335758811638979,0.5350361123068829,0.4837670916353932,"[[0, 0, 1166, 1963], [0, 0, 950, 2176], [0, 0, 9211, 12188], [0, 0, 999, 13161]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.75      0.43      0.55     21399
+    synonymy       0.45      0.93      0.60     14160
+
+    accuracy                           0.54     41814
+   macro avg       0.30      0.34      0.29     41814
+weighted avg       0.53      0.54      0.48     41814
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.6122152444280261,0.5224713223860313,0.6122152444280261,0.5557951838382817,"[[0, 0, 2497, 568], [0, 0, 2416, 699], [0, 0, 17142, 3124], [0, 0, 6442, 7717]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.60      0.85      0.70     20266
+    synonymy       0.64      0.55      0.59     14159
+
+    accuracy                           0.61     40605
+   macro avg       0.31      0.35      0.32     40605
+weighted avg       0.52      0.61      0.56     40605
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[256, 128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.614459272014158,0.53099826802068,0.614459272014158,0.554043601208786,"[[0, 0, 2704, 425], [0, 0, 2630, 496], [0, 0, 18858, 2541], [0, 0, 7325, 6835]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.60      0.88      0.71     21399
+    synonymy       0.66      0.48      0.56     14160
+
+    accuracy                           0.61     41814
+   macro avg       0.32      0.34      0.32     41814
+weighted avg       0.53      0.61      0.55     41814
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[128]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8865903213889915,0.8859842823870436,0.8865903213889915,0.8857836255877828,"[[2239, 20, 727, 79], [24, 2396, 586, 109], [433, 290, 18504, 1039], [83, 54, 1161, 12861]]","              precision    recall  f1-score   support
+
+    hypernym       0.81      0.73      0.77      3065
+     hyponym       0.87      0.77      0.82      3115
+        none       0.88      0.91      0.90     20266
+    synonymy       0.91      0.91      0.91     14159
+
+    accuracy                           0.89     40605
+   macro avg       0.87      0.83      0.85     40605
+weighted avg       0.89      0.89      0.89     40605
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8855313385051102,0.8866736119252294,0.8855313385051102,0.8854747066766653,"[[2408, 38, 522, 97], [74, 2457, 426, 158], [695, 400, 17741, 1430], [87, 48, 673, 13351]]","              precision    recall  f1-score   support
+
+    hypernym       0.74      0.79      0.76      3065
+     hyponym       0.83      0.79      0.81      3115
+        none       0.92      0.88      0.90     20266
+    synonymy       0.89      0.94      0.91     14159
+
+    accuracy                           0.89     40605
+   macro avg       0.84      0.85      0.85     40605
+weighted avg       0.89      0.89      0.89     40605
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.782393456736978,0.772454138691566,0.782393456736978,0.7719291878537371,"[[896, 77, 1813, 343], [91, 1571, 1182, 282], [454, 367, 18885, 1693], [144, 478, 2175, 11363]]","              precision    recall  f1-score   support
+
+    hypernym       0.57      0.29      0.38      3129
+     hyponym       0.63      0.50      0.56      3126
+        none       0.79      0.88      0.83     21399
+    synonymy       0.83      0.80      0.82     14160
+
+    accuracy                           0.78     41814
+   macro avg       0.70      0.62      0.65     41814
+weighted avg       0.77      0.78      0.77     41814
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.9049122303534701,0.9073737487806219,0.9049122303534701,0.9048468348281427,"[[2592, 24, 370, 143], [34, 2630, 302, 160], [580, 345, 18911, 1563], [36, 28, 391, 13705]]","              precision    recall  f1-score   support
+
+    hypernym       0.80      0.83      0.81      3129
+     hyponym       0.87      0.84      0.85      3126
+        none       0.95      0.88      0.91     21399
+    synonymy       0.88      0.97      0.92     14160
+
+    accuracy                           0.90     41814
+   macro avg       0.87      0.88      0.88     41814
+weighted avg       0.91      0.90      0.90     41814
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8551442100731812,0.8542965980798908,0.8551442100731812,0.849094913949466,"[[1499, 25, 1251, 354], [16, 1926, 797, 387], [286, 181, 19496, 1436], [38, 70, 1216, 12836]]","              precision    recall  f1-score   support
+
+    hypernym       0.82      0.48      0.60      3129
+     hyponym       0.87      0.62      0.72      3126
+        none       0.86      0.91      0.88     21399
+    synonymy       0.85      0.91      0.88     14160
+
+    accuracy                           0.86     41814
+   macro avg       0.85      0.73      0.77     41814
+weighted avg       0.85      0.86      0.85     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.89449575175471,0.8951921884078575,0.89449575175471,0.8943598181800054,"[[2483, 21, 470, 91], [35, 2526, 460, 94], [644, 368, 17901, 1353], [49, 47, 652, 13411]]","              precision    recall  f1-score   support
+
+    hypernym       0.77      0.81      0.79      3065
+     hyponym       0.85      0.81      0.83      3115
+        none       0.92      0.88      0.90     20266
+    synonymy       0.90      0.95      0.92     14159
+
+    accuracy                           0.89     40605
+   macro avg       0.86      0.86      0.86     40605
+weighted avg       0.90      0.89      0.89     40605
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5676640807782293,0.5113405658323559,0.5676640807782293,0.519795460628937,"[[0, 0, 1447, 1618], [0, 0, 1528, 1587], [0, 0, 11118, 9148], [0, 0, 2227, 11932]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.68      0.55      0.61     20266
+    synonymy       0.49      0.84      0.62     14159
+
+    accuracy                           0.57     40605
+   macro avg       0.29      0.35      0.31     40605
+weighted avg       0.51      0.57      0.52     40605
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5120533792509686,0.5764341237981268,0.5120533792509686,0.34717025594006545,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21398, 1], [0, 0, 14147, 13]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.93      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.36      0.25      0.17     41814
+weighted avg       0.58      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[256]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[128, 64]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.6429186396900559,0.5478406143965562,0.6429186396900559,0.5867429463550369,"[[0, 0, 2408, 721], [0, 0, 2358, 768], [0, 0, 18366, 3033], [0, 0, 5643, 8517]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.64      0.86      0.73     21399
+    synonymy       0.65      0.60      0.63     14160
+
+    accuracy                           0.64     41814
+   macro avg       0.32      0.36      0.34     41814
+weighted avg       0.55      0.64      0.59     41814
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8985268092026594,0.8980969192105384,0.8985268092026594,0.8980121984248579,"[[2420, 15, 615, 79], [18, 2525, 498, 85], [481, 306, 19311, 1301], [43, 40, 762, 13315]]","              precision    recall  f1-score   support
+
+    hypernym       0.82      0.77      0.79      3129
+     hyponym       0.87      0.81      0.84      3126
+        none       0.91      0.90      0.91     21399
+    synonymy       0.90      0.94      0.92     14160
+
+    accuracy                           0.90     41814
+   macro avg       0.88      0.86      0.87     41814
+weighted avg       0.90      0.90      0.90     41814
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[256]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8425168603816904,0.8417392241358107,0.8425168603816904,0.8409895811714857,"[[1998, 31, 881, 219], [58, 1917, 804, 347], [888, 380, 18496, 1635], [214, 85, 1043, 12818]]","              precision    recall  f1-score   support
+
+    hypernym       0.63      0.64      0.64      3129
+     hyponym       0.79      0.61      0.69      3126
+        none       0.87      0.86      0.87     21399
+    synonymy       0.85      0.91      0.88     14160
+
+    accuracy                           0.84     41814
+   macro avg       0.79      0.76      0.77     41814
+weighted avg       0.84      0.84      0.84     41814
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.7065386036202438,0.6938801327589601,0.7065386036202438,0.6535384167476935,"[[34, 10, 2102, 919], [4, 120, 1893, 1098], [13, 28, 17708, 2517], [3, 38, 3291, 10827]]","              precision    recall  f1-score   support
+
+    hypernym       0.63      0.01      0.02      3065
+     hyponym       0.61      0.04      0.07      3115
+        none       0.71      0.87      0.78     20266
+    synonymy       0.70      0.76      0.73     14159
+
+    accuracy                           0.71     40605
+   macro avg       0.66      0.42      0.40     40605
+weighted avg       0.69      0.71      0.65     40605
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[128]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5915281369289497,0.5039454484231716,0.5915281369289497,0.5353106018533231,"[[0, 0, 2425, 640], [0, 0, 2553, 562], [0, 0, 16860, 3406], [0, 0, 7000, 7159]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.58      0.83      0.69     20266
+    synonymy       0.61      0.51      0.55     14159
+
+    accuracy                           0.59     40605
+   macro avg       0.30      0.33      0.31     40605
+weighted avg       0.50      0.59      0.54     40605
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8846447481837212,0.8832123260312962,0.8846447481837212,0.882965777953459,"[[2061, 39, 844, 121], [70, 2293, 600, 152], [380, 257, 18397, 1232], [80, 50, 859, 13170]]","              precision    recall  f1-score   support
+
+    hypernym       0.80      0.67      0.73      3065
+     hyponym       0.87      0.74      0.80      3115
+        none       0.89      0.91      0.90     20266
+    synonymy       0.90      0.93      0.91     14159
+
+    accuracy                           0.88     40605
+   macro avg       0.86      0.81      0.83     40605
+weighted avg       0.88      0.88      0.88     40605
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.7075620605538815,0.698857949617065,0.7075620605538815,0.6734011047589912,"[[152, 65, 2011, 901], [1, 680, 1576, 869], [58, 249, 18401, 2691], [3, 279, 3525, 10353]]","              precision    recall  f1-score   support
+
+    hypernym       0.71      0.05      0.09      3129
+     hyponym       0.53      0.22      0.31      3126
+        none       0.72      0.86      0.78     21399
+    synonymy       0.70      0.73      0.71     14160
+
+    accuracy                           0.71     41814
+   macro avg       0.67      0.46      0.47     41814
+weighted avg       0.70      0.71      0.67     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[128]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8064762998038935,0.8050059028397578,0.8064762998038935,0.7977453860237209,"[[1100, 28, 1834, 167], [17, 1743, 1193, 173], [416, 355, 19246, 1382], [37, 131, 2359, 11633]]","              precision    recall  f1-score   support
+
+    hypernym       0.70      0.35      0.47      3129
+     hyponym       0.77      0.56      0.65      3126
+        none       0.78      0.90      0.84     21399
+    synonymy       0.87      0.82      0.85     14160
+
+    accuracy                           0.81     41814
+   macro avg       0.78      0.66      0.70     41814
+weighted avg       0.81      0.81      0.80     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.565002152389152,0.5624055680372155,0.565002152389152,0.5171671448596011,"[[0, 0, 951, 2178], [0, 0, 840, 2286], [0, 0, 10366, 11033], [0, 0, 901, 13259]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.79      0.48      0.60     21399
+    synonymy       0.46      0.94      0.62     14160
+
+    accuracy                           0.57     41814
+   macro avg       0.31      0.36      0.30     41814
+weighted avg       0.56      0.57      0.52     41814
+","{'lr': 0.01, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[512]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8139618309657053,0.8089742821508756,0.8139618309657053,0.8041570307903121,"[[1135, 35, 1515, 444], [22, 1603, 1017, 484], [350, 253, 19296, 1500], [107, 165, 1887, 12001]]","              precision    recall  f1-score   support
+
+    hypernym       0.70      0.36      0.48      3129
+     hyponym       0.78      0.51      0.62      3126
+        none       0.81      0.90      0.86     21399
+    synonymy       0.83      0.85      0.84     14160
+
+    accuracy                           0.81     41814
+   macro avg       0.78      0.66      0.70     41814
+weighted avg       0.81      0.81      0.80     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[512]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5290974017978082,0.46460515705867933,0.5290974017978082,0.4371000495259774,"[[0, 0, 2860, 205], [0, 0, 2949, 166], [0, 0, 18608, 1658], [0, 0, 11283, 2876]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.52      0.92      0.66     20266
+    synonymy       0.59      0.20      0.30     14159
+
+    accuracy                           0.53     40605
+   macro avg       0.28      0.28      0.24     40605
+weighted avg       0.46      0.53      0.44     40605
+","{'lr': 1e-05, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.6036734108193428,0.6421700627484491,0.6036734108193428,0.5167712698550084,"[[0, 0, 3090, 39], [0, 19, 3066, 41], [0, 21, 21222, 156], [0, 3, 10156, 4001]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.44      0.01      0.01      3126
+        none       0.57      0.99      0.72     21399
+    synonymy       0.94      0.28      0.43     14160
+
+    accuracy                           0.60     41814
+   macro avg       0.49      0.32      0.29     41814
+weighted avg       0.64      0.60      0.52     41814
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.559512375323236,0.5028060040158949,0.559512375323236,0.5124190878950796,"[[0, 0, 1481, 1584], [0, 0, 1528, 1587], [0, 0, 11012, 9254], [0, 0, 2452, 11707]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.67      0.54      0.60     20266
+    synonymy       0.49      0.83      0.61     14159
+
+    accuracy                           0.56     40605
+   macro avg       0.29      0.34      0.30     40605
+weighted avg       0.50      0.56      0.51     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 512, 'hidden_sizes': '[128]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.8982145056027583,0.9050437285099676,0.8982145056027583,0.898430271702285,"[[2716, 26, 219, 104], [17, 2770, 213, 115], [798, 530, 17174, 1764], [36, 45, 266, 13812]]","              precision    recall  f1-score   support
+
+    hypernym       0.76      0.89      0.82      3065
+     hyponym       0.82      0.89      0.85      3115
+        none       0.96      0.85      0.90     20266
+    synonymy       0.87      0.98      0.92     14159
+
+    accuracy                           0.90     40605
+   macro avg       0.85      0.90      0.87     40605
+weighted avg       0.91      0.90      0.90     40605
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.6051083369206486,0.5644449818435027,0.6051083369206486,0.5528744658960386,"[[3, 7, 2415, 704], [1, 10, 2282, 833], [1, 15, 17274, 4109], [2, 7, 6136, 8015]]","              precision    recall  f1-score   support
+
+    hypernym       0.43      0.00      0.00      3129
+     hyponym       0.26      0.00      0.01      3126
+        none       0.61      0.81      0.70     21399
+    synonymy       0.59      0.57      0.58     14160
+
+    accuracy                           0.61     41814
+   macro avg       0.47      0.34      0.32     41814
+weighted avg       0.56      0.61      0.55     41814
+","{'lr': 1e-05, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[128]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.3386425599081647,0.11467878338115493,0.3386425599081647,0.17133592912064932,"[[0, 0, 0, 3129], [0, 0, 0, 3126], [0, 0, 0, 21399], [0, 0, 0, 14160]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.00      0.00      0.00     21399
+    synonymy       0.34      1.00      0.51     14160
+
+    accuracy                           0.34     41814
+   macro avg       0.08      0.25      0.13     41814
+weighted avg       0.11      0.34      0.17     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[256]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.3386425599081647,0.11467878338115493,0.3386425599081647,0.17133592912064932,"[[0, 0, 0, 3129], [0, 0, 0, 3126], [0, 0, 0, 21399], [0, 0, 0, 14160]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.00      0.00      0.00     21399
+    synonymy       0.34      1.00      0.51     14160
+
+    accuracy                           0.34     41814
+   macro avg       0.08      0.25      0.13     41814
+weighted avg       0.11      0.34      0.17     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[128]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5970693264376309,0.5087588591541312,0.5970693264376309,0.5412948822781465,"[[0, 0, 2451, 614], [0, 0, 2527, 588], [0, 0, 16848, 3418], [0, 0, 6763, 7396]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.59      0.83      0.69     20266
+    synonymy       0.62      0.52      0.57     14159
+
+    accuracy                           0.60     40605
+   macro avg       0.30      0.34      0.31     40605
+weighted avg       0.51      0.60      0.54     40605
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[128]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 1e-05, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[256, 128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.3487255264130033,0.620696407410277,0.3487255264130033,0.18036282297568698,"[[0, 0, 0, 3065], [0, 0, 0, 3115], [0, 0, 1, 20265], [0, 0, 0, 14159]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       1.00      0.00      0.00     20266
+    synonymy       0.35      1.00      0.52     14159
+
+    accuracy                           0.35     40605
+   macro avg       0.34      0.25      0.13     40605
+weighted avg       0.62      0.35      0.18     40605
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[256]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.6620120674793745,0.6295255551527799,0.6620120674793745,0.6183279758498373,"[[97, 15, 2006, 947], [10, 195, 1856, 1054], [88, 72, 16630, 3476], [51, 132, 4017, 9959]]","              precision    recall  f1-score   support
+
+    hypernym       0.39      0.03      0.06      3065
+     hyponym       0.47      0.06      0.11      3115
+        none       0.68      0.82      0.74     20266
+    synonymy       0.65      0.70      0.67     14159
+
+    accuracy                           0.66     40605
+   macro avg       0.55      0.40      0.40     40605
+weighted avg       0.63      0.66      0.62     40605
+","{'lr': 1e-05, 'num_epochs': 50, 'batch_size': 64, 'hidden_sizes': '[256]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.3386425599081647,0.11467878338115493,0.3386425599081647,0.17133592912064932,"[[0, 0, 0, 3129], [0, 0, 0, 3126], [0, 0, 0, 21399], [0, 0, 0, 14160]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.00      0.00      0.00     21399
+    synonymy       0.34      1.00      0.51     14160
+
+    accuracy                           0.34     41814
+   macro avg       0.08      0.25      0.13     41814
+weighted avg       0.11      0.34      0.17     41814
+","{'lr': 0.1, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[128]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[256]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.893313244367915,0.8932832396930407,0.893313244367915,0.8925729067535483,"[[2316, 20, 627, 166], [21, 2496, 471, 138], [510, 368, 19044, 1477], [42, 49, 572, 13497]]","              precision    recall  f1-score   support
+
+    hypernym       0.80      0.74      0.77      3129
+     hyponym       0.85      0.80      0.82      3126
+        none       0.92      0.89      0.90     21399
+    synonymy       0.88      0.95      0.92     14160
+
+    accuracy                           0.89     41814
+   macro avg       0.86      0.85      0.85     41814
+weighted avg       0.89      0.89      0.89     41814
+","{'lr': 0.0001, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[128, 64]', 'activation': 'tanh', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.49910109592414725,0.24910190395268483,0.49910109592414725,0.33233503014567756,"[[0, 0, 3065, 0], [0, 0, 3115, 0], [0, 0, 20266, 0], [0, 0, 14159, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3065
+     hyponym       0.00      0.00      0.00      3115
+        none       0.50      1.00      0.67     20266
+    synonymy       0.00      0.00      0.00     14159
+
+    accuracy                           0.50     40605
+   macro avg       0.12      0.25      0.17     40605
+weighted avg       0.25      0.50      0.33     40605
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.7765546115010467,0.7751579593092875,0.7765546115010467,0.7643794613833744,"[[981, 19, 1884, 181], [45, 1202, 1339, 529], [571, 173, 18205, 1317], [315, 44, 2656, 11144]]","              precision    recall  f1-score   support
+
+    hypernym       0.51      0.32      0.39      3065
+     hyponym       0.84      0.39      0.53      3115
+        none       0.76      0.90      0.82     20266
+    synonymy       0.85      0.79      0.82     14159
+
+    accuracy                           0.78     40605
+   macro avg       0.74      0.60      0.64     40605
+weighted avg       0.78      0.78      0.76     40605
+","{'lr': 0.001, 'num_epochs': 20, 'batch_size': 64, 'hidden_sizes': '[128, 64]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'sigmoid', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.1, 'num_epochs': 20, 'batch_size': 32, 'hidden_sizes': '[512]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8917128432459057,0.8921433887955846,0.8917128432459057,0.8916371303177005,"[[2441, 32, 531, 61], [31, 2559, 451, 74], [577, 401, 17921, 1367], [101, 69, 702, 13287]]","              precision    recall  f1-score   support
+
+    hypernym       0.77      0.80      0.79      3065
+     hyponym       0.84      0.82      0.83      3115
+        none       0.91      0.88      0.90     20266
+    synonymy       0.90      0.94      0.92     14159
+
+    accuracy                           0.89     40605
+   macro avg       0.86      0.86      0.86     40605
+weighted avg       0.89      0.89      0.89     40605
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 256, 'hidden_sizes': '[128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 256, 'hidden_sizes': '[128, 64]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 1e-05, 'num_epochs': 50, 'batch_size': 128, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'tanh', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.5117663940307074,0.26190484205919334,0.5117663940307074,0.346488509194726,"[[0, 0, 3129, 0], [0, 0, 3126, 0], [0, 0, 21399, 0], [0, 0, 14160, 0]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.51      1.00      0.68     21399
+    synonymy       0.00      0.00      0.00     14160
+
+    accuracy                           0.51     41814
+   macro avg       0.13      0.25      0.17     41814
+weighted avg       0.26      0.51      0.35     41814
+","{'lr': 0.01, 'num_epochs': 20, 'batch_size': 512, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'sigmoid', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
+0.8857529860854575,0.8858490635986925,0.8857529860854575,0.8856418368166796,"[[2372, 25, 594, 74], [67, 2453, 443, 152], [491, 348, 18432, 995], [202, 61, 1187, 12709]]","              precision    recall  f1-score   support
+
+    hypernym       0.76      0.77      0.77      3065
+     hyponym       0.85      0.79      0.82      3115
+        none       0.89      0.91      0.90     20266
+    synonymy       0.91      0.90      0.90     14159
+
+    accuracy                           0.89     40605
+   macro avg       0.85      0.84      0.85     40605
+weighted avg       0.89      0.89      0.89     40605
+","{'lr': 0.001, 'num_epochs': 50, 'batch_size': 32, 'hidden_sizes': '[1024, 512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'Adam', 'dropout_rate': 0.0, 'postive_percentage': 0.7}"
+0.5877935619648922,0.5002931847203238,0.5877935619648922,0.5316336282785111,"[[0, 0, 2597, 532], [0, 0, 2583, 543], [0, 0, 17733, 3666], [0, 0, 7315, 6845]]","              precision    recall  f1-score   support
+
+    hypernym       0.00      0.00      0.00      3129
+     hyponym       0.00      0.00      0.00      3126
+        none       0.59      0.83      0.69     21399
+    synonymy       0.59      0.48      0.53     14160
+
+    accuracy                           0.59     41814
+   macro avg       0.29      0.33      0.30     41814
+weighted avg       0.50      0.59      0.53     41814
+","{'lr': 0.0001, 'num_epochs': 20, 'batch_size': 128, 'hidden_sizes': '[512, 256, 128, 64]', 'activation': 'relu', 'optimizer': 'SGD', 'dropout_rate': 0.0, 'postive_percentage': 0.6}"
